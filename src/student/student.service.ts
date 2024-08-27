@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { IStudent } from 'Interface/student.interface';
+import { IStudent } from 'src/Interface/student.interface';
 import { Model } from 'mongoose';
 
 @Injectable()
